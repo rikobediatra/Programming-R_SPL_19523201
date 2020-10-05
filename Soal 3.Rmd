@@ -1,0 +1,13 @@
+---
+title: "Soal 3"
+output: html_notebook
+---
+```{r}
+A <- matrix(c(1,1,1,2,3,5,4,0,5), 3, 3, TRUE)
+B <- c(5,8,2)
+showEqn(A,B)
+echelon(A,B, verbose=TRUE, fraction=TRUE)
+Solve(A,B)
+
+```
+
